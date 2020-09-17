@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --env node --detectLeaks"
   },
   "keywords": [],
   "author": "Will Soto <will-soto@pluralsight.com> (https://github.com/willsoto)",
