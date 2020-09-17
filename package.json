@@ -1,0 +1,19 @@
+{
+  "name": "jest-repro",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Will Soto <will-soto@pluralsight.com> (https://github.com/willsoto)",
+  "license": "Apache-2.0",
+  "volta": {
+    "node": "14.11.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "weak-napi": "^2.0.2"
+  }
+}
