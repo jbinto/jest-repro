@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --env node --detectLeaks --runInBand --logHeapUsage ./test"
+    "test": "jest --no-cache --runInBand --logHeapUsage ./test",
+    "test:with-nest": "jest --no-cache --runInBand --logHeapUsage ./test/with-nest",
+    "test:without-nest": "jest --no-cache --runInBand --logHeapUsage ./test/without-nest"
   },
   "keywords": [],
   "author": "Will Soto <will-soto@pluralsight.com> (https://github.com/willsoto)",
   "license": "Apache-2.0",
   "volta": {
-    "node": "14.11.0"
+    "node": "12.18.3"
   },
   "devDependencies": {
     "@nestjs/testing": "^7.4.4",
