@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest --no-cache --runInBand --logHeapUsage ./test",
     "test:with-nest": "jest --no-cache --runInBand --logHeapUsage ./test/with-nest",
-    "test:without-nest": "jest --no-cache --runInBand --logHeapUsage ./test/without-nest"
+    "test:without-nest": "jest --no-cache --runInBand --logHeapUsage ./test/without-nest",
+    "test:force-gc": "node --expose-gc ./node_modules/jest/bin/jest --no-cache --runInBand --logHeapUsage ./test"
   },
   "keywords": [],
   "author": "Will Soto <will-soto@pluralsight.com> (https://github.com/willsoto)",

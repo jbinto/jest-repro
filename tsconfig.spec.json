@@ -22,5 +22,5 @@
     "target": "ES2019",
     "types": ["jest", "node"]
   },
-  "include": []
+  "include": [],
 }
